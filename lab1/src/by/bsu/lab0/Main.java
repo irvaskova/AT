@@ -1,5 +1,7 @@
 package by.bsu.lab0;
 
+изменение для второго коммита
+
 import java.util.Scanner;
 
 public class Main {
