@@ -9,7 +9,7 @@ public class SimpleTest {
     @Test
     public void correctFillingOfAllFields() {
 
-        System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", ".\\resources\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.swiss.com/");

@@ -16,7 +16,7 @@ public class ReturnDateTest {
 
     @BeforeClass
     public static void setur() {
-        System.setProperty("webdriver.home.driver", "D://web_drivers//chromedriver_win32//chromedriver.exe");
+        System.setProperty("webdriver.home.driver", ".//resources//chromedriver.exe");
         driver = new ChromeDriver();
         bookOnline = new BookOnline(driver);
         driver.manage().window().maximize();
